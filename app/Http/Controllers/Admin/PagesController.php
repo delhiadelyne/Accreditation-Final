@@ -250,13 +250,22 @@ class PagesController extends Controller
 
     public function getApplications()
     {
-        $institutionId = Auth::user()->institution->id;
+        $user = Auth::user();
+
+        // Check if user is logged in and has an institution
+        if (!$user || !$user->institution) {
+            return redirect()->route('login')->with('error', 'You must be logged in as an institution to view applications.');
+        }
+
+        $institutionId = $user->institution->id;
+
         $applications = ProgramApplicant::where('institution_id', $institutionId)
             ->orderBy('id', 'desc')
             ->get();
 
         return view('backend.getApplications', compact('applications'));
     }
+
 
     public function generateProgramApplicationsReport()
     {

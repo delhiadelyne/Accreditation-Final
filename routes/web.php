@@ -11,6 +11,10 @@ Route::get('/contact', [App\Http\Controllers\PagesController::class, 'contact'])
 Route::get('/programs', [App\Http\Controllers\PagesController::class, 'getTrades'])->name('getTrades');
 Route::get('/program/{id}', [App\Http\Controllers\PagesController::class, 'getTradeDetails'])->name('getTradeDetails');
 Route::post('/programs/{id}/apply', [App\Http\Controllers\PagesController::class, 'apply'])->name('programApply');
+Route::post('/apply/{programId}', [PagesController::class, 'apply'])->middleware('auth');
+Route::get('/apply/{programId}', [App\Http\Controllers\PagesController::class, 'apply'])->name('apply');
+Route::get('/institution/applications', [PagesController::class, 'getApplications'])->middleware('auth');
+Route::get('/institution/applications/report', [App\Http\Controllers\PagesController::class, 'generateApplicationReport'])->name('generateApplicationReport');
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/training-requests', [App\Http\Controllers\Admin\AdminController::class, 'trainingRequests'])->name('trainingRequests');
