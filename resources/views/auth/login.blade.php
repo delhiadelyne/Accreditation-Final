@@ -97,7 +97,7 @@
                                         <p class="text-lg text-white opacity-80 max-w-[700px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto soluta eum commodi non temporibus saepe! Dicta error culpa alias, maxime dolores fugit accusamus beatae recusandae dolor, quod voluptates perferendis quaerat?</p>
                                     </div>
                                     <span class="text-white">
-                                        Copyright © 2024
+                                        Copyright © 2025
                                         <span class="font-semibold">Accredition</span>
                                     </span>
                                 </div>
