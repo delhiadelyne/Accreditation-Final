@@ -44,8 +44,8 @@
                                                     <label class="mb-2 form-label">Role</label>
                                                     <div>
                                                         <select class="input" name="role">
-                                                            <option value="user">User</option>
-                                                            <option value="institution">Institution</option>
+                                                            <option value="user">Trainee</option>
+                                                            <option value="institution">Applicant</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -63,7 +63,7 @@
                                                 <div class="form-item vertical">
                                                     <label class="mb-2 form-label">Email</label>
                                                     <div>
-                                                        <input class="input" type="email" name="email" value="{{ old('email') }}" placeholder="Email">
+                                                        <input class="input" type="email" name="email" value="{{ old('email') }}" placeholder="Email" required>
                                                     </div>
                                                     @if($errors->has('email'))
                                                         <span class="text-red-500">{{ $errors->first('email') }}</span>
@@ -73,7 +73,7 @@
                                                 <div class="form-item vertical">
                                                     <label class="mb-2 form-label">Password</label>
                                                     <div>
-                                                        <input class="input" type="password" name="password" placeholder="Password">
+                                                        <input class="input" type="password" name="password" placeholder="Password" car-max-8>
                                                     </div>
                                                     @if($errors->has('password'))
                                                         <span class="text-red-500">{{ $errors->first('password') }}</span>
@@ -83,7 +83,7 @@
                                                 <div class="form-item vertical">
                                                     <label class="mb-2 form-label">Confirm Password</label>
                                                     <div>
-                                                        <input class="input" type="password" name="password_confirmation" placeholder="Confirm Password">
+                                                        <input class="input" type="password" name="password_confirmation" placeholder="Confirm Password" car-max-8>
                                                     </div>
                                                 </div>
 

@@ -14,31 +14,31 @@ class UserTableSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'name' => 'Admin',
-            'email' => 'admin@admin.com',
+            'name' => 'RTB Admin',
+            'email' => 'rtb@rtb.com',
             'role' => 'admin',
-            'password' => bcrypt('admin@admin.com'),
+            'password' => bcrypt('rtb@rtb.com'),
         ]);
 
         User::create([
-            'name' => 'Institution',
-            'email' => 'institution@institution.com',
+            'name' => 'Company ',
+            'email' => 'company@rtb.com',
             'role' => 'institution',
-            'password' => bcrypt('institution@institution.com'),
+            'password' => bcrypt('applicant@rtb.com'),
         ]);
 
-        User::create([
-            'name' => 'Company',
-            'email' => 'company@company.com',
-            'role' => 'company',
-            'password' => bcrypt('company@company.com'),
-        ]);
+        // User::create([
+        //     'name' => 'Training Center',
+        //     'email' => 'trainingcenter@rtb.com',
+        //     'role' => 'company',
+        //     'password' => bcrypt('trainingcenter@rtb.com'),
+        // ]);
 
         User::create([
-            'name' => 'User',
-            'email' => 'user@user.com',
+            'name' => 'Trainee',
+            'email' => 'trainee@rtb.com',
             'role' => 'user',
-            'password' => bcrypt('user@user.com'),
+            'password' => bcrypt('trainee@rtb.com'),
         ]);
     }
 }
