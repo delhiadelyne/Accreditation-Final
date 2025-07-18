@@ -97,6 +97,13 @@
                                             </div>
                                         </form>
                                     </div>
+<<<<<<< HEAD
+=======
+                                    <span class="text-white">
+                                        Copyright © 2025
+                                        <span class="font-semibold">Accredition</span>
+                                    </span>
+>>>>>>> c6b505a6864df59b3d67e4110e7e2f0827be1993
                                 </div>
                             </div>
                             <div class="flex-col justify-between hidden col-span-2 px-16 py-6 bg-[#4f46e5] bg-no-repeat bg-cover dark:bg-gray-800 lg:flex"

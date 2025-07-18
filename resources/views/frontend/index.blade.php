@@ -9,7 +9,7 @@
                 <h3 class="mb-4 md:text-[26px] md:leading-normal text-2xl leading-normal font-semibold">Popular Trainings</h3>
 
                 <p class="max-w-xl mx-auto text-slate-400">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, iste laudantium officiis dolore hic natus reiciendis architecto eaque repudiandae tempore!
+                    
                 </p>
             </div>
 
