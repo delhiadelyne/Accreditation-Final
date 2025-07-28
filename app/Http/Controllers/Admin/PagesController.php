@@ -40,7 +40,7 @@ class PagesController extends Controller
                     ->count();
             } else {
                 // Handle case where institution user doesn't have an associated institution
-                $data['error'] = 'No institution associated with this account.';
+                $data['error'] = 'No company associated with this account.';
             }
         }
 
@@ -254,7 +254,7 @@ class PagesController extends Controller
 
         // Check if user is logged in and has an institution
         if (!$user || !$user->institution) {
-            return redirect()->route('login')->with('error', 'You must be logged in as an institution to view applications.');
+            return redirect()->route('login')->with('error', 'You must be logged into Company to view applications.');
         }
 
         $institutionId = $user->institution->id;
@@ -349,6 +349,6 @@ class PagesController extends Controller
         }
 
         // Redirect with a success message
-        return redirect()->route('dashboard', $id)->with('success', 'Institution profile updated successfully.');
+        return redirect()->route('dashboard', $id)->with('success', 'Company profile updated successfully.');
     }
 }

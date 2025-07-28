@@ -14,12 +14,12 @@
                             @csrf
                             <div class="form-container vertical">
                                 <div>
-                                    <h5 style="color: #065F46; font-weight: 700">Institution Information</h5>
-                                    <p>Update your institution's details.</p>
+                                    <h5 style="color: #065F46; font-weight: 700">Company Information</h5>
+                                    <p>Update your Company's details.</p>
                                 </div>
 
                                 <div class="grid items-center gap-4 py-4 md:grid-cols-3">
-                                    <div class="font-semibold">Institution Name, Type & Physical Address</div>
+                                    <div class="font-semibold">Company Name, Type & Physical Address</div>
                                     <div class="col-span-2">
                                         <div class="flex">
                                             <input class="pl-8 input" type="text" name="name" autocomplete="off" placeholder="Institution Name" value="{{ old('name', $institution->name ?? Auth::user()->name) }}">
@@ -51,7 +51,7 @@
                                 </div>
 
                                 <div class="grid items-center gap-4 py-4 md:grid-cols-3">
-                                    <div class="font-semibold">Institution Phone & Email</div>
+                                    <div class="font-semibold">Company Phone & Email</div>
                                     <div class="col-span-2">
                                         <div class="flex">
                                             <input class="pl-8 input" type="text" name="phone" autocomplete="off" placeholder="Phone" value="{{ old('phone', $institution->phone) }}">
@@ -62,7 +62,7 @@
 
                                 <div class="mt-8">
                                     <h3 style="color: #065F46">Owner Information</h3>
-                                    <p>Details about the institution's owner.</p>
+                                    <p>Details about the Company's owner.</p>
                                 </div>
 
                                 <div class="grid items-center gap-4 py-4 md:grid-cols-3">

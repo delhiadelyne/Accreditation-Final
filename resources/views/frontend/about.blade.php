@@ -10,7 +10,7 @@
         </div>
         <div class="absolute z-10 mx-3 text-center bottom-5 start-0 end-0">
             <ul class="breadcrumb tracking-[0.5px] breadcrumb-light mb-0 inline-block">
-            <li class="inline breadcrumb-item text-[15px] font-semibold duration-500 ease-in-out text-white/50 hover:text-white"><a href="{{ route('home') }}">SCAW</a></li>
+            <li class="inline breadcrumb-item text-[15px] font-semibold duration-500 ease-in-out text-white/50 hover:text-white"><a href="{{ route('home') }}">SCAS</a></li>
                 <li class="inline breadcrumb-item text-[15px] font-semibold duration-500 ease-in-out text-white" aria-current="page">About Us</li>
             </ul>
         </div>
@@ -39,7 +39,7 @@
 
                 <div class="lg:col-span-7 md:col-span-6 mt-14 md:mt-0">
                     <div class="lg:ms-5">
-                        <h3 class="mb-6 md:text-[26px] text-2xl md:leading-normal leading-normal font-semibold">Short Course <br> SCAW System</h3>
+                        <h3 class="mb-6 md:text-[26px] text-2xl md:leading-normal leading-normal font-semibold">Short Course <br> SCAS System</h3>
 
                         <p class="max-w-xl text-slate-400">
                             A platform where companies post training programs, and students apply to develop new skills and enhance their careers.

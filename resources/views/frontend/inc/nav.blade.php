@@ -3,7 +3,7 @@
         <a class="logo" href="{{ route('home') }}">
             <div class="block sm:hidden">
               
-                SCAW
+                SCAS
             </div>
             <div class="hidden sm:block">
                 <img src="frontend/1.png" width="100px" alt="">

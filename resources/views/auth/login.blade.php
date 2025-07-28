@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="img/favicon.ico">
-    <title>SCAW - Sign In</title>
+    <title>SCAS - Sign In</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/css/style.css') }}">
     <style>
         .input-wrapper {
@@ -97,28 +97,26 @@
                                             </div>
                                         </form>
                                     </div>
-<<<<<<< HEAD
-=======
                                     <span class="text-white">
                                         Copyright © 2025
                                         <span class="font-semibold">Accredition</span>
                                     </span>
->>>>>>> c6b505a6864df59b3d67e4110e7e2f0827be1993
+
                                 </div>
                             </div>
                             <div class="flex-col justify-between hidden col-span-2 px-16 py-6 bg-[#4f46e5] bg-no-repeat bg-cover dark:bg-gray-800 lg:flex"
                                  style="background-image: url('{{ asset('https://rwandaequip.org.rw/wp-content/uploads/2023/01/RV5_1504-1024x682.jpg') }}'); background-size: cover; background-position: center;">
                                 <div class="logo">
                                     <a href="{{ route('home') }}">
-                                        <h2 class="text-white">SCAW</h2>
+                                        <h2 class="text-white">SCAS</h2>
                                     </a>
                                 </div>
                                 <div>
                                     <h3 class="mb-4 text-white">Welcome</h3>
-                                    <p class="text-lg text-white opacity-80 max-w-[700px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto soluta eum commodi non temporibus saepe! Dicta error culpa alias, maxime dolores fugit accusamus beatae recusandae dolor, quod voluptates perferendis quaerat?</p>
+                                    <p class="text-lg text-white opacity-80 max-w-[700px]">We believe in the power of quality training. SCAS is built to support schools and institutions committed to shaping the future workforce of Rwanda.</p>
                                 </div>
                                 <span class="text-white">
-                                    Copyright © 2024
+                                    Copyright © 2025
                                     <span class="font-semibold">Accredition</span>
                                 </span>
                             </div>

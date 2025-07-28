@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SCAW - Sign Up</title>
+    <title>SCAS - Sign Up</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('backend/css/style.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
@@ -18,15 +18,15 @@
                             <div class="flex-col justify-between hidden col-span-2 px-16 py-6 bg-[#4f46e5] bg-no-repeat bg-cover dark:bg-gray-800 lg:flex" style="background-image: url({{ asset('https://live.staticflickr.com/65535/52725743613_1af8ed0fd5_z.jpg') }});">
                                 <div class="logo">
                                     <a href="{{ route('home') }}">
-                                        <h2 class="text-white">SCAW</h2>
+                                        <h2 class="text-white">SCAS</h2>
                                     </a>
                                 </div>
                                 <div>
                                     <h3 class="mb-4 text-white">Welcome</h3>
-                                    <p class="text-lg text-white opacity-80 max-w-[700px]">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                                    <p class="text-lg text-white opacity-80 max-w-[700px]">No more long waits or confusing paperwork. SCAS helps you apply for accreditation with ease and efficiency, so you can start teaching sooner!</p>
                                 </div>
                                 <span class="text-white">
-                                    Copyright © 2024
+                                    Copyright © 2025
                                     <span class="font-semibold">Accredition</span>
                                 </span>
                             </div>
@@ -44,8 +44,9 @@
                                                     <label class="mb-2 form-label">Role</label>
                                                     <div>
                                                         <select class="input" name="role">
+                                                            <option value="user"></option>
                                                             <option value="user">Trainee</option>
-                                                            <option value="institution">Applicant</option>
+                                                            <option value="institution">Applicant or Company</option>
                                                         </select>
                                                     </div>
                                                 </div>
